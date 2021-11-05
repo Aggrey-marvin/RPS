@@ -1,0 +1,11 @@
+1.computerPlay function:
+  We shall have an array containing rock, paper and scissors.
+  We shall use a random function to randomly choose the array index that is needed
+  we shall have a string variable that will be assigned the value at the random array index chosen
+
+
+2.round function(Will have a parameter of the value chosen by the computer)
+  Prompt the user to enter a choice, rock, paper, or scissors and store the value in a variable.
+  Convert all the letters to lowercase and assign  them to a new variable.
+  Assuming the variable are "player" and "computer"
+  
