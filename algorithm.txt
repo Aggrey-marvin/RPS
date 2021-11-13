@@ -8,4 +8,23 @@
   Prompt the user to enter a choice, rock, paper, or scissors and store the value in a variable.
   Convert all the letters to lowercase and assign  them to a new variable.
   Assuming the variable are "player" and "computer"
-  
+  if(player = rock && computer = rock) print = It's a draw
+  else if(player = rock && computer = paper) print = You lose, paper beats rock
+  else if(player = rock && computer = scissors) print = You win, rock beats scissors
+  else if(player = paper && computer = rock) print = You win, paper beats rock
+  else if(player = paper && computer = paper) print = It's a draw
+  else if(player = paper && computer = scissors) print = You lose, scissors beat rock
+  else if(player = scissors && computer = rock) print = You lose, rock beats scissors
+  else if(player = scissors && computer = paper) print = You win, scissors beat paper
+  else print = It's a draw
+
+ 3.game function
+  It will have a for loop that runs five times.
+  The for loop should record each time the person playing wins in a variable.
+  That value should be incremented in every loop if the person wins.
+  The function should return the value.
+
+ 4.final stage
+  Test whether the value returned by the function is >= 3
+  if(value >= 3) print = Congratulations, you win.
+  else print = Sorry, you lose, better luck next time.  
